@@ -5,7 +5,7 @@ import database from '../../firebase/firebase';
 import {
     addExpense,
     editExpense,
-    startEditExpense
+    startEditExpense,
     removeExpense,
     setExpenses,
     startAddExpense,
@@ -56,7 +56,7 @@ test('should setup edit expense action object', () => {
             note: 'New note value'
         }
     });
-})
+});
 
 test('should edit expense from firebase', (done) => {
     const store = createMockStore({});
