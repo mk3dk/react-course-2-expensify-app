@@ -2,10 +2,19 @@
 
 exports[`should correctly render LoginPage 1`] = `
 <div>
+<<<<<<< HEAD
   <button>
+=======
+  <button
+    onClick={[Function]}
+  >
+>>>>>>> 2e13e662793d20692f1db5d815d12eddae538a23
     Login
   </button>
 </div>
 `;
+<<<<<<< HEAD
 
 exports[`should render Header correctly 1`] = `undefined`;
+=======
+>>>>>>> 2e13e662793d20692f1db5d815d12eddae538a23
